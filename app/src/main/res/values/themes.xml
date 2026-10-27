@@ -3,7 +3,7 @@
   <style name="Theme.Settings" parent="@android:style/Theme.DeviceDefault.DayNight" />
 
   <!-- Transparent but still a visible window, which Activity.showAssist() requires. -->
-  <style name="Theme.Trigger" parent="@android:style/Theme.Translucent.NoTitleBar">
+  <style name="Theme.Assistant" parent="@android:style/Theme.Translucent.NoTitleBar">
     <item name="android:windowAnimationStyle">@null</item>
   </style>
 </resources>

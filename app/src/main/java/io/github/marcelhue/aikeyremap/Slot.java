@@ -1,10 +1,13 @@
 package io.github.marcelhue.aikeyremap;
 
-/** One way of pressing the AI key; Motorola's key service reports each one separately. */
+/**
+ * One way of pressing the AI key; Motorola's key service reports each one separately.
+ * There is no slot for holding the key: on this device the service ignores its setting and only
+ * offers Moto AI or nothing.
+ */
 public enum Slot {
     SINGLE("single", R.string.slot_single, KeyAction.PLAY_PAUSE),
-    DOUBLE("double", R.string.slot_double, KeyAction.NONE),
-    HOLD("hold", R.string.slot_hold, KeyAction.ASSISTANT);
+    DOUBLE("double", R.string.slot_double, KeyAction.NONE);
 
     private final String id;
     private final int labelResId;

@@ -6,7 +6,6 @@
 
   <string name="slot_single">Einmal drücken</string>
   <string name="slot_double">Zweimal drücken</string>
-  <string name="slot_hold">Gedrückt halten</string>
 
   <string name="action_none">Keine Aktion</string>
   <string name="action_play_pause">Musik abspielen / pausieren</string>

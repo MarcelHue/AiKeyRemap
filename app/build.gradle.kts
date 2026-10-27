@@ -14,14 +14,14 @@ if (signingFilePath != null) {
 
 android {
     namespace = "io.github.marcelhue.aikeyremap"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "io.github.marcelhue.aikeyremap"
         minSdk = 33
-        targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0"
+        targetSdk = 37
+        versionCode = 2
+        versionName = "0.2.0"
     }
 
     compileOptions {
