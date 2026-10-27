@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Settings" parent="@android:style/Theme.DeviceDefault.DayNight" />
+
+  <!-- Transparent but still a visible window, which Activity.showAssist() requires. -->
+  <style name="Theme.Trigger" parent="@android:style/Theme.Translucent.NoTitleBar">
+    <item name="android:windowAnimationStyle">@null</item>
+  </style>
+</resources>

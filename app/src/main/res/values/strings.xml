@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">KI-Taste</string>
+
+  <string name="intro">Lege fest, was die KI-Taste bei jeder Druckart tun soll. Änderungen gelten sofort.</string>
+
+  <string name="slot_single">Einmal drücken</string>
+  <string name="slot_double">Zweimal drücken</string>
+  <string name="slot_hold">Gedrückt halten</string>
+
+  <string name="action_none">Keine Aktion</string>
+  <string name="action_play_pause">Musik abspielen / pausieren</string>
+  <string name="action_next_track">Nächster Titel</string>
+  <string name="action_previous_track">Vorheriger Titel</string>
+  <string name="action_assistant">Standard-Assistent starten</string>
+  <string name="action_launch_app">App öffnen</string>
+
+  <string name="choose_app">App wählen</string>
+  <string name="no_app_chosen">Noch keine App gewählt</string>
+
+  <string name="error_no_app">Für diese Druckart ist keine App gewählt.</string>
+  <string name="error_app_missing">Die gewählte App ist nicht mehr installiert.</string>
+  <string name="error_assistant">Der Assistent konnte nicht gestartet werden.</string>
+</resources>
